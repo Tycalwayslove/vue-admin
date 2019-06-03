@@ -93,13 +93,13 @@ export const constantRoutes = [
   },
 
   {
-    path: "/demo-crud",
+    path: "/democrud",
     component: Layout,
     children: [
       {
         path: "index",
         name: "DemoCrud",
-        component: () => import("@/views/demo-crud/index"),
+        component: () => import("@/views/democrud/index"),
         meta: { title: "常用增删改查", icon: "form" }
       }
     ]
