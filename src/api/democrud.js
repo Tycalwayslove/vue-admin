@@ -7,25 +7,25 @@ export function getDemoList(params) {
     params
   });
 }
-// 删除数据
-// export function deleteData(id) {
-//   return request({
-//     url: `/delete/${id}`,
-//     method: "post"
-//   });
-// }
-// // 添加数据
-// export function addData(params) {
-//   return request({
-//     url: "/add",
-//     method: "post",
-//     params
-//   });
-// }
-// // 更新数据
-// export function updateDate(id) {
-//   return request({
-//     url: `/updateL/${id}`,
-//     method: "post"
-//   });
-// }
+删除数据;
+export function deleteData(id) {
+  return request({
+    url: `/delete/${id}`,
+    method: "post"
+  });
+}
+// 添加数据
+export function addData(params) {
+  return request({
+    url: "/add",
+    method: "post",
+    params
+  });
+}
+// 更新数据
+export function updateDate(id) {
+  return request({
+    url: `/updateL/${id}`,
+    method: "post"
+  });
+}
